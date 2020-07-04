@@ -1,0 +1,24 @@
+{
+    "name": "dan/php-skeleton",
+    "authors": [
+        {
+            "name": "Daniel Rosengren",
+            "email": "danne.rosengren@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {"Dan\\Skeleton\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Dan\\Skeleton\\": "tests/"}
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
